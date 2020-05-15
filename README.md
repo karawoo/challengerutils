@@ -46,4 +46,4 @@ As noted above, `library(reticulate)`-based packages like `challengerutils` are 
 synapseclient <- reticulate::import('synapseclient')
 syn <- synapseclient$Synapse()
 syn$login()
-``
+```
